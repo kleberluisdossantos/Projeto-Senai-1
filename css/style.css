@@ -1,0 +1,162 @@
+
+        @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower&display=swap');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            /**width e height contados a partir da borda*/
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif 'Indie Flower', cursive;
+            background-color: #efefef;
+
+        }
+
+
+        header {
+            padding-left: 10%;
+            padding-right: 10%;
+            background-color: gray;
+
+        }
+
+        h1 {
+            display: inline-block;
+            width: 15%;
+            margin-left: -4px;
+            /*border: 1px solid black;*/
+            vertical-align: middle;
+            color: white;
+            font-family: sans-serif;
+
+        }
+
+        h1 span {
+            display: inline-block;
+            width: 15%;
+            margin-left: -4px;
+            /*border: 1px solid black;*/
+            vertical-align: middle;
+            color: white;
+            font-family:
+        }
+
+        nav {
+            display: inline-block;
+            width: 80%;
+            /*border: 1px solid black;*/
+            text-align: right;
+            vertical-align: middle;
+        }
+
+        a {
+            display: inline-block;
+            padding: 20px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+
+        }
+
+        p {
+            margin-bottom: 30px;
+
+        }
+
+        main {
+            width: 70%;
+            margin: 20px auto 0 auto;
+            /*border: 1px solid black;*/
+        }
+
+        main section {
+            display: inline-block;
+            background-color: white;
+            width: 70%;
+            margin-right: -4px;
+            vertical-align: top;
+        }
+
+        main section img {
+            width: 100%;
+        }
+
+        main aside {
+            display: inline-block;
+            width: 27%;
+            margin-right: -4px;
+            vertical-align: top;
+            margin-left: 3%;
+        }
+
+        main section img {
+            width: 100%;
+        }
+
+        main section h2 {
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        .aside-box {
+            background-color: white;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .aside-box h3 {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+        }
+
+        .aside-box input {
+            height: 35px;
+            /*  width:  70px;*/
+            margin-left: 10px;
+            border: 1px solid gray;
+
+        }
+
+        .aside-box button {
+            background: gray;
+            padding: 12px;
+            border: 0;
+            color: white;
+        }
+
+        .aside-box ul li {
+            margin-left: 30px;
+            margin-right: 15px;
+
+        }
+
+        .aside-box ul li {
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        .aside-box p {
+            font-size: 15px;
+            line-height: 25px;
+            padding: 0 20px;
+            padding: 0 20px;
+            margin-bottom:  20px;
+        }
+
+        .aside-box #ins {
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+    
